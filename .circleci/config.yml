@@ -10,6 +10,7 @@ version: 2.1
        - run: make deps 
        - run: make lint
        - run: make test       
+       - run: make docker_build  
  
  workflows: 
    basic:  
